@@ -25,12 +25,12 @@
       "desc": "Elegant assorted sweets, bites and premium gifting boxes."
     },
     {
-      "name": "Healthy Glore",
+      "name": "Healthy Galore",
       "pages": [
         18,
         19
       ],
-      "slug": "healthy-glore",
+      "slug": "healthy-galore",
       "desc": "Curated dry fruits and roasted nut assortments."
     },
     {
@@ -267,8 +267,8 @@
       ]
     },
     {
-      "section": "Healthy Glore",
-      "slug": "healthy-glore",
+      "section": "Healthy Galore",
+      "slug": "healthy-galore",
       "page": 18,
       "detailPage": 18,
       "image": "pages/page-18.jpg",
@@ -287,8 +287,8 @@
       ]
     },
     {
-      "section": "Healthy Glore",
-      "slug": "healthy-glore",
+      "section": "Healthy Galore",
+      "slug": "healthy-galore",
       "page": 19,
       "detailPage": 19,
       "image": "pages/page-19.jpg",
