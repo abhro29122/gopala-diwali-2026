@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1305" height="923" viewBox="0 0 1305 923">
+  <image href="page-19.jpg" xlink:href="page-19.jpg" x="0" y="0" width="1305" height="923"/>
+  <defs><linearGradient id="panelPatch" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#bb6e37"/><stop offset="60%" stop-color="#b86d3d"/><stop offset="100%" stop-color="#b87343"/>
+  </linearGradient></defs>
+  <rect x="506" y="726" width="260" height="68" fill="url(#panelPatch)"/>
+  <g fill="#fff9ed" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700">
+    <text x="514" y="754">Kaju</text><text x="514" y="787">Badam</text>
+  </g>
+</svg>
