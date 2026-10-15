@@ -271,8 +271,8 @@
       "slug": "healthy-galore",
       "page": 18,
       "detailPage": 18,
-      "image": "pages/page-18.jpg",
-      "detailImage": "pages/page-18.jpg",
+      "image": "pages/page-18-clean.svg",
+      "detailImage": "pages/page-18-clean.svg",
       "code": "4625",
       "price": 1890,
       "sourcePage": 17,
@@ -280,7 +280,7 @@
       "contents": [
         "Kaju — 200 g",
         "Badam — 200 g",
-        "Pista — 150 g",
+        "Pista Dodhi — 150 g",
         "Kishmish — 250 g",
         "Walnut — 80 g",
         "Tray — 1 pc"
@@ -291,13 +291,13 @@
       "slug": "healthy-galore",
       "page": 19,
       "detailPage": 19,
-      "image": "pages/page-19.jpg",
-      "detailImage": "pages/page-19.jpg",
+      "image": "pages/page-19-clean.svg",
+      "detailImage": "pages/page-19-clean.svg",
       "code": "541",
       "price": 1350,
       "contents": [
-        "Roasted Kaju — 150 g",
-        "Roasted Badam — 180 g",
+        "Kaju — 150 g",
+        "Badam — 180 g",
         "Pista Dodhi — 120 g",
         "Kishmish — 200 g",
         "Box — 1 pc"
