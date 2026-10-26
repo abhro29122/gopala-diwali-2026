@@ -616,8 +616,8 @@
       "slug": "healthy-galore",
       "page": 20,
       "detailPage": 20,
-      "image": "new-products/4908.webp",
-      "detailImage": "new-products/4908.webp",
+      "image": "pages/page-20.jpg",
+      "detailImage": "pages/page-20.jpg",
       "code": "4908",
       "price": 1450,
       "contents": [
@@ -638,8 +638,8 @@
       "slug": "happiness-basket",
       "page": 34,
       "detailPage": 34,
-      "image": "new-products/1880.webp",
-      "detailImage": "new-products/1880.webp",
+      "image": "pages/page-34.jpg",
+      "detailImage": "pages/page-34.jpg",
       "code": "1880",
       "price": 1480,
       "contents": [
@@ -660,8 +660,8 @@
       "slug": "treasured-treat",
       "page": 35,
       "detailPage": 35,
-      "image": "new-products/4300.webp",
-      "detailImage": "new-products/4300.webp",
+      "image": "pages/page-35.jpg",
+      "detailImage": "pages/page-35.jpg",
       "code": "4300",
       "price": 1990,
       "contents": [
