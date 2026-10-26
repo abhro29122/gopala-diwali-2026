@@ -10,7 +10,8 @@
         8,
         9,
         10,
-        11
+        11,
+        35
       ],
       "slug": "treasured-treat",
       "desc": "Premium nut, trail-mix and savoury gift boxes."
@@ -28,7 +29,8 @@
       "name": "Healthy Galore",
       "pages": [
         18,
-        19
+        19,
+        20
       ],
       "slug": "healthy-galore",
       "desc": "Curated dry fruits and roasted nut assortments."
@@ -50,7 +52,8 @@
       "pages": [
         27,
         29,
-        31
+        31,
+        34
       ],
       "slug": "happiness-basket",
       "desc": "A festive basket of sweets, cookies and savoury favourites."
@@ -607,6 +610,69 @@
         "Moongdal Burfi — 250 g",
         "Box — 1 pc"
       ]
+    },
+    {
+      "section": "Healthy Galore",
+      "slug": "healthy-galore",
+      "page": 20,
+      "detailPage": 20,
+      "image": "new-products/4908.webp",
+      "detailImage": "new-products/4908.webp",
+      "code": "4908",
+      "price": 1450,
+      "contents": [
+        "Kaju — 100 g",
+        "Badam — 120 g",
+        "Pista Dodhi — 80 g",
+        "Kishmish — 150 g",
+        "Walnut — 80 g",
+        "Kiwi — 130 g",
+        "Tray — 1 pc"
+      ],
+      "art": "healthy-4908-tray",
+      "sourcePage": 19,
+      "detailSourcePage": 19
+    },
+    {
+      "section": "Happiness Basket",
+      "slug": "happiness-basket",
+      "page": 34,
+      "detailPage": 34,
+      "image": "new-products/1880.webp",
+      "detailImage": "new-products/1880.webp",
+      "code": "1880",
+      "price": 1480,
+      "contents": [
+        "Chana Burfi — 8 pcs",
+        "Muesli Cookies — 300 g",
+        "Rimjhim — 250 g",
+        "Methi Matthi Large — 300 g",
+        "Kashmiri Mixture — 200 g",
+        "Tasty Peanut — 200 g",
+        "Basket — 1 pc"
+      ],
+      "art": "hb-1880-red-basket",
+      "sourcePage": 33,
+      "detailSourcePage": 33
+    },
+    {
+      "section": "Treasured Treat",
+      "slug": "treasured-treat",
+      "page": 35,
+      "detailPage": 35,
+      "image": "new-products/4300.webp",
+      "detailImage": "new-products/4300.webp",
+      "code": "4300",
+      "price": 1990,
+      "contents": [
+        "Nutty Cranberry Cluster — 200 g",
+        "Coco Seeds Cluster — 200 g",
+        "Coco Nutty Cluster — 200 g",
+        "Spicy Nutty Cluster — 200 g"
+      ],
+      "art": "tt-4300-cluster-jars",
+      "sourcePage": 34,
+      "detailSourcePage": 34
     }
   ],
   "whatsapp": "917290031303",
