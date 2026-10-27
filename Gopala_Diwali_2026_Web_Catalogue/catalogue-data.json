@@ -81,10 +81,10 @@
       "code": "4902",
       "price": 1150,
       "contents": [
-        "Nutty Cranberry Cluster — 150 g",
-        "Coco Nutty Cluster/Spicy Nutty Cluster — 150 g",
-        "Kashmiri Mixture — 150 g",
-        "Box — 1 pc"
+        "Kashmiri Mixture — 150 grams",
+        "Cranberry Cluster — 150 grams",
+        "Coco Nutty Cluster — 150 grams",
+        "Box — 1 Pc"
       ],
       "art": "tt-4902-200g",
       "sourcePage": 4,
@@ -157,10 +157,10 @@
       "code": "4920",
       "price": 1395,
       "contents": [
-        "Kashmiri Mixture — 150 g",
-        "Cranberry Cluster — 150 g",
-        "Coco Nutty Cluster — 150 g",
-        "Nut Stick cookies — 200 grams",
+        "Kashmiri Mixture — 150 grams",
+        "Cranberry Cluster — 150 grams",
+        "Coco Nutty Cluster — 150 grams",
+        "Nut Stick cookies — 150 grams",
         "Box — 1 Pc"
       ],
       "art": "tt-4920-purple-box",
@@ -678,6 +678,6 @@
   "whatsapp": "917290031303",
   "updatedAt": "2026-10-27",
   "catalogueYear": 2026,
-  "source": "Gopala_Diwali_2026_Updated_Catalogue_Revised(4).pdf — latest user-provided catalogue; use no earlier PDF.",
+  "source": "Gopala_Diwali_2026_Updated_Catalogue_Revised(4).pdf only",
   "catalogueVersion": "Revised(4)"
 }
