@@ -81,9 +81,9 @@
       "code": "4902",
       "price": 1150,
       "contents": [
-        "Kashmiri Mixture — 150 grams",
-        "Cranberry Cluster — 150 grams",
-        "Coco Nutty Cluster — 150 grams",
+        "Nutty Cranberry Cluster — 150 grams",
+        "Coco Nutty Cluster/Spicy Nutty Cluster — 150 grams",
+        "Kashmiri Mixture — 200 grams",
         "Box — 1 Pc"
       ],
       "art": "tt-4902-200g",
@@ -100,10 +100,10 @@
       "code": "4902",
       "price": 1150,
       "contents": [
-        "Kashmiri Mixture — 150 g",
-        "Nutty Cranberry Cluster — 150 g",
-        "Coco Nutty Cluster — 150 g",
-        "Box — 1 pc"
+        "Kashmiri Mixture — 150 grams",
+        "Nutty Cranberry Cluster — 150 grams",
+        "Coco Nutty Cluster — 150 grams",
+        "Box — 1 Pc"
       ],
       "art": "tt-previous-4275-now-4902",
       "sourcePage": 5,
@@ -137,11 +137,11 @@
       "code": "4920",
       "price": 1395,
       "contents": [
-        "Kashmiri Mixture — 150 g",
-        "Nutty Cranberry Cluster — 150 g",
-        "Trail Mix — 200 g",
-        "Coco Nutty Cluster — 150 g",
-        "Box — 1 pc"
+        "Kashmiri Mixture — 200 grams",
+        "Nutty Cranberry Cluster — 150 grams",
+        "Trail Mix — 200 grams",
+        "Coco Nutty Cluster — 150 grams",
+        "Box — 1 Pc"
       ],
       "art": "tt-4920-orange-box",
       "sourcePage": 7,
@@ -177,11 +177,11 @@
       "code": "4920",
       "price": 1395,
       "contents": [
-        "Kashmiri Mixture — 150 g",
-        "Spicy Nutty Cluster — 150 g",
-        "Coco Nutty Cluster — 150 g",
-        "Trail Mix — 200 g",
-        "Box — 1 pc"
+        "Kashmiri Mixture — 150 grams",
+        "Spicy Nutty Cluster — 150 grams",
+        "Coco Nutty Cluster — 150 grams",
+        "Trail Mix — 200 grams",
+        "Box — 1 Pc"
       ],
       "art": "tt-4920-peacock-box",
       "sourcePage": 9,
@@ -197,11 +197,11 @@
       "code": "4920",
       "price": 1395,
       "contents": [
-        "Kashmiri Mixture — 150 g",
-        "Nutty Cranberry Cluster — 150 g",
-        "Coco Nutty Cluster — 150 g",
-        "Trail Mix — 200 g",
-        "Box — 1 pc"
+        "Kashmiri Mixture — 150 grams",
+        "Nutty Cranberry Cluster — 150 grams",
+        "Coco Nutty Cluster — 150 grams",
+        "Trail Mix — 200 grams",
+        "Box — 1 Pc"
       ],
       "art": "tt-4920-pink-box",
       "sourcePage": 10,
@@ -217,11 +217,11 @@
       "code": "",
       "price": 1200,
       "contents": [
-        "Kashmiri Mixture — 150 g",
-        "Cranberry Cluster — 150 g",
-        "Spicy Nutty Cluster — 150 g",
-        "Milko bite — 150 g",
-        "Box — 1 pc"
+        "Kashmiri Mixture — 150 grams",
+        "Cranberry Cluster — 150 grams",
+        "Spicy Nutty Cluster — 150 grams",
+        "Milko bite — 150 grams",
+        "Box — 1 Pc"
       ],
       "newProduct": true
     },
@@ -678,6 +678,6 @@
   "whatsapp": "917290031303",
   "updatedAt": "2026-10-27",
   "catalogueYear": 2026,
-  "source": "Gopala_Diwali_2026_Updated_Catalogue_Revised(4).pdf only",
+  "source": "Gopala_Diwali_2026_Updated_Catalogue_Revised(4).pdf (latest upload)",
   "catalogueVersion": "Revised(4)"
 }
