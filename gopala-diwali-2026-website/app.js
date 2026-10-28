@@ -48,24 +48,27 @@ function makeProductCard(product) {
   card.dataset.index = String(index);
 
   const imageWrap = addElement("div", "product-image");
+  const photoPage = Number(product.page);
+  if ([13, 15].includes(photoPage)) imageWrap.classList.add("product-image--photo-tall");
+  if ([18, 19, 20, 22, 23, 24, 25, 26, 28, 30, 32, 35].includes(photoPage)) imageWrap.classList.add("product-image--photo-wide");
+  if ([37, 39, 41, 43].includes(photoPage)) imageWrap.classList.add("product-image--sweet");
+  if (photoPage === 34) imageWrap.classList.add("product-image--basket");
   const image = addElement("img");
-  image.src = pagePath(product.page);
+  image.src = product.image || pagePath(product.page);
   image.alt = product.title + " — Gopala Diwali 2026 collection";
   image.loading = "lazy";
   imageWrap.appendChild(image);
 
-  const code = addElement("span", "product-code", "CODE " + (product.code || "—"));
-  imageWrap.appendChild(code);
-
   const info = addElement("div", "product-info");
   info.appendChild(addElement("span", "product-category", product.category));
   info.appendChild(addElement("h3", "", product.title));
+  info.appendChild(addElement("span", "product-code-text", "CODE " + (product.code || "—")));
   info.appendChild(addElement("p", "", product.desc || "See the full catalogue for product details."));
 
   const bottom = addElement("div", "product-bottom");
   const priceBlock = addElement("div");
-  priceBlock.appendChild(addElement("span", "price-label", product.priceOptions ? "MRP · FROM" : "MRP"));
-  const displayPrice = product.priceOptions ? "From " + product.price : product.price;
+  priceBlock.appendChild(addElement("span", "price-label", product.priceOptions ? "PACK SIZES" : "MRP"));
+  const displayPrice = product.priceOptions ? "See options" : product.price;
   priceBlock.appendChild(addElement("span", "price", displayPrice));
   bottom.appendChild(priceBlock);
   bottom.appendChild(addElement("span", "view-link", "VIEW DETAILS ↗"));
@@ -123,7 +126,7 @@ function render() {
 
 function openProduct(product) {
   const image = document.querySelector("#modal-img");
-  image.src = pagePath(product.page);
+  image.src = product.image || pagePath(product.page);
   image.alt = product.title;
 
   document.querySelector("#modal-category").textContent = product.category;
@@ -168,8 +171,6 @@ function openProduct(product) {
   );
   document.querySelector("#modal-whatsapp").href =
     "https://wa.me/917290031303?text=" + message;
-  document.querySelector("#modal-page").href =
-    "assets/Gopala_Diwali_2026_Catalogue.pdf#page=" + product.page;
 
   const modal = document.querySelector("#modal");
   modal.classList.add("open");

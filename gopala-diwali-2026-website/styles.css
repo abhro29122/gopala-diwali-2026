@@ -30,3 +30,13 @@
 @media(max-width:1050px){.collection-products{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:760px){.collection-products{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.collection-group-heading{align-items:center}}
 @media(max-width:420px){.collection-products{grid-template-columns:1fr}}
+
+/* Product cards use cropped photo-only SVGs, not full catalogue pages. */
+.product-image{aspect-ratio:1.78;background:#f4e5cd;overflow:hidden}
+.product-image img{display:block;width:100%;height:100%;object-fit:cover;object-position:center center}
+.product-image--photo-tall{aspect-ratio:1.2}
+.product-image--photo-wide{aspect-ratio:1.95}
+.product-image--sweet{aspect-ratio:1.3}
+.product-image--basket{aspect-ratio:.9}
+.product-code-text{display:inline-block;margin:0 0 8px;padding:4px 7px;border-radius:2px;background:#fbf0d7;border:1px solid #e4d0a7;color:#651b27;font-size:9px;font-weight:800;letter-spacing:.06em}
+.product-image .product-code{display:none!important}
