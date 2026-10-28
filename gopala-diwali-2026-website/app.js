@@ -54,7 +54,7 @@ function makeProductCard(product) {
   if ([37, 39, 41, 43].includes(photoPage)) imageWrap.classList.add("product-image--sweet");
   if (photoPage === 34) imageWrap.classList.add("product-image--basket");
   const image = addElement("img");
-  image.src = product.image || pagePath(product.page);
+  image.src = pagePath(product.page);
   image.alt = product.title + " — Gopala Diwali 2026 collection";
   image.loading = "lazy";
   imageWrap.appendChild(image);
@@ -126,7 +126,7 @@ function render() {
 
 function openProduct(product) {
   const image = document.querySelector("#modal-img");
-  image.src = product.image || pagePath(product.page);
+  image.src = pagePath(product.page);
   image.alt = product.title;
 
   document.querySelector("#modal-category").textContent = product.category;
