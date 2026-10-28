@@ -1,63 +1,63 @@
 [
   {
-    "title": "Festive Hamper · Nutty Collection",
+    "title": "Festive Keepsake Hamper",
     "code": "4902",
     "price": "₹1,250",
     "page": 4,
     "category": "Gift Hampers",
-    "desc": "Nutty Cranberry Cluster, Coco Nutty Cluster / Spicy Nutty Cluster, Kashmiri Mixture. 150 g each; box included."
+    "desc": "Nutty Cranberry Cluster 150 g, Coco Nutty Cluster / Spicy Nutty Cluster 150 g, Kashmiri Mixture 150 g; box included."
   },
   {
-    "title": "Festive Hamper · Pink Keepsake",
+    "title": "Pink Keepsake Hamper",
     "code": "4902",
     "price": "₹1,250",
     "page": 5,
     "category": "Gift Hampers",
-    "desc": "Kashmiri Mixture 150 g, Nutty Cranberry Cluster 150 g, Coco Nutty Cluster 150 g; box included."
+    "desc": "Kashmiri Mixture 150 g, Nutty Cranberry Cluster 150 g and Coco Nutty Cluster 150 g; box included."
   },
   {
-    "title": "Festive Hamper · Peacock Box",
+    "title": "Peacock Festive Hamper",
     "code": "4903",
     "price": "₹1,395",
     "page": 6,
     "category": "Gift Hampers",
-    "desc": "Nutty Cranberry Cluster 150 g, Coco Nutty Cluster / Spicy Nutty Cluster 150 g, Trail Mix 200 g; box included."
+    "desc": "Nutty Cranberry Cluster 150 g, Coco Nutty Cluster / Spicy Nutty Cluster 150 g and Trail Mix 200 g; box included."
   },
   {
-    "title": "Celebration Hamper · Classic",
+    "title": "Royal Celebration Hamper",
     "code": "4920",
     "price": "₹1,450",
     "page": 7,
     "category": "Gift Hampers",
-    "desc": "Kashmiri Mixture 150 g, Nutty Cranberry Cluster 150 g, Trail Mix 200 g, Coco Nutty Cluster 150 g; box included."
+    "desc": "Kashmiri Mixture 150 g, Nutty Cranberry Cluster 150 g, Trail Mix 200 g and Coco Nutty Cluster 150 g; box included."
   },
   {
-    "title": "Celebration Hamper · Purple Box",
+    "title": "Gourmet Jar Hamper",
     "code": "4920",
     "price": "₹1,450",
     "page": 8,
     "category": "Gift Hampers",
-    "desc": "Kashmiri Mixture, Cranberry Cluster, Coco Nutty Cluster and Nut Stick Cookies; 150 g each; box included."
+    "desc": "Kashmiri Mixture 150 g, Cranberry Cluster 150 g, Coco Nutty Cluster 150 g and Nut Stick Cookies 150 g; box included."
   },
   {
-    "title": "Celebration Hamper · Pink Box",
+    "title": "Pink Gourmet Hamper",
     "code": "4920",
     "price": "₹1,450",
     "page": 9,
     "category": "Gift Hampers",
-    "desc": "Kashmiri Mixture 150 g, Spicy Nutty Cluster 150 g, Coco Nutty Cluster 150 g, Trail Mix 200 g; box included."
+    "desc": "Kashmiri Mixture 150 g, Spicy Nutty Cluster 150 g, Coco Nutty Cluster 150 g and Trail Mix 200 g; box included."
   },
   {
-    "title": "Celebration Hamper · Peacock Keepsake",
+    "title": "Peacock Jar Hamper",
     "code": "4920",
     "price": "₹1,450",
     "page": 10,
     "category": "Gift Hampers",
-    "desc": "Kashmiri Mixture 150 g, Nutty Cranberry Cluster 150 g, Coco Nutty Cluster 150 g, Trail Mix 200 g; box included."
+    "desc": "Kashmiri Mixture 150 g, Nutty Cranberry Cluster 150 g, Coco Nutty Cluster 150 g and Trail Mix 200 g; box included."
   },
   {
-    "title": "Wooden Box · Gourmet Assortment",
-    "code": "—",
+    "title": "Wooden Gourmet Box",
+    "code": "3978",
     "price": "₹1,300",
     "page": 11,
     "category": "Gift Hampers",
@@ -67,33 +67,41 @@
     "title": "Elegante Collection Hamper",
     "code": "4282",
     "price": "₹2,399",
-    "page": 14,
+    "page": 13,
     "category": "Gift Hampers",
-    "desc": "Spicy Nutty Cluster 150 g, Kashmiri Mixture 150 g, Roasted Almond 200 g, laddus and assorted bites; box included."
+    "desc": "Spicy Nutty Cluster 150 g, Kashmiri Mixture 150 g, Roasted Almond 200 g, assorted laddus and bites; box included."
   },
   {
     "title": "Elegante Collection Hamper",
     "code": "4279",
     "price": "₹2,250",
-    "page": 16,
+    "page": 15,
     "category": "Gift Hampers",
     "desc": "Spicy Nutty Cluster 150 g, Kashmiri Mixture 150 g, Nut Stick Cookies 150 g, Milko Bite 150 g, Chana Burfi and assorted laddus; box included."
   },
   {
-    "title": "Dry Fruit Assortment · Pista Dodhi",
+    "title": "Premium Dry Fruit Assortment",
     "code": "4625",
     "price": "₹1,950",
-    "page": 19,
+    "page": 18,
     "category": "Dry Fruits",
     "desc": "Kaju 200 g, Badam 200 g, Pista Dodhi 150 g, Kishmish 250 g, Walnut 80 g; tray included."
   },
   {
-    "title": "Dry Fruit Assortment",
+    "title": "Classic Dry Fruit Tray",
     "code": "541",
+    "price": "₹1,450",
+    "page": 19,
+    "category": "Dry Fruits",
+    "desc": "Kaju 150 g, Badam 180 g, Pista Dodhi 120 g, Kishmish 200 g; box included."
+  },
+  {
+    "title": "Colourful Dry Fruit Tray",
+    "code": "4908",
     "price": "₹1,450",
     "page": 20,
     "category": "Dry Fruits",
-    "desc": "Kaju 150 g, Badam 180 g, Pista Dodhi 120 g, Kishmish 200 g; box included."
+    "desc": "Kaju 100 g, Badam 120 g, Pista Dodhi 80 g, Kishmish 150 g, Walnut 80 g, Kiwi 130 g; tray included."
   },
   {
     "title": "Baklawa Selection · 3 Pieces Each",
@@ -141,7 +149,7 @@
     "price": "₹1,750",
     "page": 28,
     "category": "Gift Hampers",
-    "desc": "Dodha Burfi, Besan Burfi, Muesli Cookies, Namak Para, Gol Mathhi, Makhana, Badam Laccha / Kashmiri Mixture, Lite Chiwra and Bhujia."
+    "desc": "Dodha Burfi / Besan Burfi, Muesli Cookies, Namak Para, Gol Mathhi, Makhana, Badam Laccha / Kashmiri Mixture, Lite Chiwra and Bhujia."
   },
   {
     "title": "The Happiness Basket",
@@ -160,35 +168,115 @@
     "desc": "Besan Laddu / Panjiri Laddu, Namak Para, Choco Chips Cookies, Kashmiri Mixture and Badam Laccha."
   },
   {
-    "title": "Sweet Luxe Premium · Assorted Sweets",
-    "code": "4293",
-    "price": "₹1,450",
-    "page": 35,
-    "category": "Sweet Boxes",
-    "desc": "Kaju Kalash 250 g, Kaju Burfi 250 g, Kaju Roll 250 g, Badam Burfi 250 g; box included. Also available in smaller sizes."
+    "title": "Festive Savoury Basket",
+    "code": "1880",
+    "price": "₹1,480",
+    "page": 34,
+    "category": "Gift Hampers",
+    "desc": "Chana Burfi, Muesli Cookies, Rimjhim, Methi Mathhi Large, Kashmiri Mixture and Tasty Peanut; basket included."
   },
   {
-    "title": "Sweet Luxe Premium · Kaju & Besan",
-    "code": "4295",
-    "price": "₹1,245",
+    "title": "Nutty Cluster Assortment",
+    "code": "4300",
+    "price": "₹1,990",
+    "page": 35,
+    "category": "Dry Fruits",
+    "desc": "Nutty Cranberry Cluster, Coco Seeds Cluster, Coco Nutty Cluster and Spicy Nutty Cluster; 200 g each."
+  },
+  {
+    "title": "Sweet Luxe Premium · Badam Burfi",
+    "code": "4293",
+    "price": "₹1,450",
     "page": 37,
     "category": "Sweet Boxes",
-    "desc": "Kaju Kalash 250 g, Kaju Burfi 250 g, Kaju Roll 250 g, Besan Burfi 250 g; box included. Smaller sizes: 800 g ₹990, 500 g ₹625."
+    "desc": "Kaju Kalash 250 g, Kaju Burfi 250 g, Kaju Roll 250 g, Badam Burfi 250 g; box included. Other sizes are available."
+  },
+  {
+    "title": "Sweet Luxe Premium · 800 g",
+    "code": "4909",
+    "price": "₹1,160",
+    "page": 38,
+    "category": "Sweet Boxes",
+    "desc": "800 g assorted sweets box: Kaju Kalash, Kaju Burfi, Kaju Roll and Badam Burfi; box included."
+  },
+  {
+    "title": "Sweet Luxe Premium · 500 g",
+    "code": "4910",
+    "price": "₹730",
+    "page": 38,
+    "category": "Sweet Boxes",
+    "desc": "500 g assorted sweets box: Kaju Kalash, Kaju Burfi, Kaju Roll and Badam Burfi; box included."
+  },
+  {
+    "title": "Sweet Luxe Premium · Besan Burfi",
+    "code": "4295",
+    "price": "₹1,245",
+    "page": 39,
+    "category": "Sweet Boxes",
+    "desc": "Kaju Kalash 250 g, Kaju Burfi 250 g, Kaju Roll 250 g, Besan Burfi 250 g; box included."
+  },
+  {
+    "title": "Sweet Luxe Premium · 800 g",
+    "code": "4913",
+    "price": "₹990",
+    "page": 40,
+    "category": "Sweet Boxes",
+    "desc": "800 g assorted sweets box: Kaju Kalash, Kaju Burfi, Kaju Roll and Besan Burfi; box included."
+  },
+  {
+    "title": "Sweet Luxe Premium · 500 g",
+    "code": "4914",
+    "price": "₹625",
+    "page": 40,
+    "category": "Sweet Boxes",
+    "desc": "500 g assorted sweets box: Kaju Kalash, Kaju Burfi, Kaju Roll and Besan Burfi; box included."
   },
   {
     "title": "Sweet Luxe Premium · Kesar Peda",
     "code": "4296",
     "price": "₹1,175",
-    "page": 39,
+    "page": 41,
     "category": "Sweet Boxes",
-    "desc": "Kaju Roll, Badam Burfi, Besan Burfi and Kesar Peda; 250 g each; box included. Smaller sizes: 800 g ₹950, 500 g ₹590."
+    "desc": "Kaju Roll, Badam Burfi, Besan Burfi and Kesar Peda; 250 g each; box included."
+  },
+  {
+    "title": "Sweet Luxe Premium · 800 g",
+    "code": "4915",
+    "price": "₹950",
+    "page": 42,
+    "category": "Sweet Boxes",
+    "desc": "800 g assorted sweets box: Kaju Roll, Badam Burfi, Besan Burfi and Kesar Peda; box included."
+  },
+  {
+    "title": "Sweet Luxe Premium · 500 g",
+    "code": "4916",
+    "price": "₹590",
+    "page": 42,
+    "category": "Sweet Boxes",
+    "desc": "500 g assorted sweets box: Kaju Roll, Badam Burfi, Besan Burfi and Kesar Peda; box included."
   },
   {
     "title": "Sweet Luxe Premium · Kheer Kadam",
     "code": "4297",
     "price": "₹990",
-    "page": 41,
+    "page": 43,
     "category": "Sweet Boxes",
-    "desc": "Kheer Kadam, Badam Burfi, Coconut Burfi and Moongdal Burfi; 250 g each; box included. Smaller sizes: 800 g ₹795, 500 g ₹510."
+    "desc": "Kheer Kadam, Badam Burfi, Coconut Burfi and Moongdal Burfi; 250 g each; box included."
+  },
+  {
+    "title": "Sweet Luxe Premium · 800 g",
+    "code": "4917",
+    "price": "₹795",
+    "page": 44,
+    "category": "Sweet Boxes",
+    "desc": "800 g assorted sweets box: Kheer Kadam, Badam Burfi, Coconut Burfi and Moongdal Burfi; box included."
+  },
+  {
+    "title": "Sweet Luxe Premium · 500 g",
+    "code": "4918",
+    "price": "₹510",
+    "page": 44,
+    "category": "Sweet Boxes",
+    "desc": "500 g assorted sweets box: Kheer Kadam, Badam Burfi, Coconut Burfi and Moongdal Burfi; box included."
   }
 ]
