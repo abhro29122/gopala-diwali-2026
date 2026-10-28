@@ -17,3 +17,16 @@
 .wa-arrow{font-size:13px;opacity:.9}
 @keyframes waPulse{0%,100%{box-shadow:0 0 0 4px #ffffff22}50%{box-shadow:0 0 0 7px #ffffff0b}}
 @media(max-width:760px){.brand-logo{width:94px;height:51px}.whatsapp-float{right:12px;bottom:12px;padding:12px 15px;gap:7px}.modal-sizes{padding:10px 11px}}
+
+/* Clear section groupings when the complete collection is visible */
+#product-grid{display:block}
+.collection-group{margin-top:30px}
+.collection-group:first-child{margin-top:0}
+.collection-group-heading{display:flex;align-items:end;justify-content:space-between;gap:16px;border-bottom:1px solid #e3cda2;padding:0 0 12px;margin-bottom:18px}
+.collection-overline{display:block;font-size:9px;letter-spacing:.19em;color:#a27b40;font-weight:800;margin-bottom:7px}
+.collection-group-heading h3{margin:0;font-family:"Playfair Display",serif;font-size:clamp(24px,2.6vw,34px);font-weight:500;color:#4c101b}
+.collection-count{font-size:11px;color:#8b7766;white-space:nowrap}
+.collection-products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+@media(max-width:1050px){.collection-products{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:760px){.collection-products{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.collection-group-heading{align-items:center}}
+@media(max-width:420px){.collection-products{grid-template-columns:1fr}}

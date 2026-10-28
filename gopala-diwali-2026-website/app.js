@@ -4,9 +4,19 @@ const moneySafe=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(
 function render(){
  const q=search.value.trim().toLowerCase();
  const filtered=products.filter(p=>(activeCategory==="All"||p.category===activeCategory)&&[p.title,p.code,p.category,p.desc].join(" ").toLowerCase().includes(q));
- grid.innerHTML=filtered.map((p,i)=>`<article class="product-card" tabindex="0" role="button" aria-label="View ${moneySafe(p.title)}" data-index="${products.indexOf(p)}">
- <div class="product-image"><img loading="lazy" src="assets/pages/page-${String(p.page).padStart(2,"0")}.jpg" alt="${moneySafe(p.title)} from the Gopala Diwali catalogue"><span class="product-code">CODE ${moneySafe(p.code)}</span></div>
- <div class="product-info"><span class="product-category">${moneySafe(p.category)}</span><h3>${moneySafe(p.title)}</h3><p>${moneySafe(p.desc)}</p><div class="product-bottom"><div><span class="price-label">MRP</span><span class="price">${moneySafe(p.priceOptions ? ("From " + p.price) : p.price)}</span></div><span class="view-link">VIEW DETAILS ↗</span></div></div></article>`).join("");
+ const makeCard=p=>\`<article class="product-card" tabindex="0" role="button" aria-label="View \${moneySafe(p.title)}" data-index="\${products.indexOf(p)}">
+ <div class="product-image"><img loading="lazy" src="assets/pages/page-\${String(p.page).padStart(2,"0")}.jpg" alt="\${moneySafe(p.title)} from the Gopala Diwali catalogue"><span class="product-code">CODE \${moneySafe(p.code)}</span></div>
+ <div class="product-info"><span class="product-category">\${moneySafe(p.category)}</span><h3>\${moneySafe(p.title)}</h3><p>\${moneySafe(p.desc)}</p><div class="product-bottom"><div><span class="price-label">MRP</span><span class="price">\${moneySafe(p.priceOptions ? ("From " + p.price) : p.price)}</span></div><span class="view-link">VIEW DETAILS ↗</span></div></div></article>\`;
+ if(activeCategory==="All"){
+   const collectionOrder=["Treasured Treat","Elegante Collection","Healthy Galore","Crystal Collection","Happiness Basket","Sweet Luxe"];
+   grid.innerHTML=collectionOrder.map(category=>{
+     const groupItems=filtered.filter(p=>p.category===category);
+     if(!groupItems.length)return "";
+     return \`<section class="collection-group"><div class="collection-group-heading"><div><span class="collection-overline">THE FESTIVE EDIT</span><h3>\${moneySafe(category)}</h3></div><span class="collection-count">\${groupItems.length} \${groupItems.length===1?"gift":"gifts"}</span></div><div class="collection-products">\${groupItems.map(makeCard).join("")}</div></section>\`;
+   }).join("");
+ } else {
+   grid.innerHTML=filtered.map(makeCard).join("");
+ }
  empty.hidden=filtered.length!==0;
 }
 function openProduct(p){
