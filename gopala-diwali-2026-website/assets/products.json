@@ -59,7 +59,7 @@
     "title": "Wooden Gourmet Box",
     "code": "3978",
     "price": "₹1,300",
-    "page": 12,
+    "page": 11,
     "category": "Treasured Treat",
     "desc": "Kashmiri Mixture, Cranberry Cluster, Spicy Nutty Cluster and Milko Bite; 150 g each; box included."
   },
@@ -67,7 +67,7 @@
     "title": "Elegante Collection Hamper",
     "code": "4282",
     "price": "₹2,399",
-    "page": 14,
+    "page": 13,
     "category": "Elegante Collection",
     "desc": "Spicy Nutty Cluster 150 g, Kashmiri Mixture 150 g, Roasted Almond 200 g, assorted laddus and bites; box included."
   },
@@ -75,7 +75,7 @@
     "title": "Elegante Collection Hamper",
     "code": "4279",
     "price": "₹2,250",
-    "page": 16,
+    "page": 15,
     "category": "Elegante Collection",
     "desc": "Spicy Nutty Cluster 150 g, Kashmiri Mixture 150 g, Nut Stick Cookies 150 g, Milko Bite 150 g, Chana Burfi and assorted laddus; box included."
   },
@@ -83,7 +83,7 @@
     "title": "Premium Dry Fruit Assortment",
     "code": "4625",
     "price": "₹1,950",
-    "page": 19,
+    "page": 18,
     "category": "Healthy Galore",
     "desc": "Kaju 200 g, Badam 200 g, Pista Dodhi 150 g, Kishmish 250 g, Walnut 80 g; tray included."
   },
@@ -91,7 +91,7 @@
     "title": "Classic Dry Fruit Tray",
     "code": "541",
     "price": "₹1,450",
-    "page": 20,
+    "page": 19,
     "category": "Healthy Galore",
     "desc": "Kaju 150 g, Badam 180 g, Pista Dodhi 120 g, Kishmish 200 g; box included."
   },
@@ -99,7 +99,7 @@
     "title": "Colourful Dry Fruit Tray",
     "code": "4908",
     "price": "₹1,450",
-    "page": 21,
+    "page": 20,
     "category": "Healthy Galore",
     "desc": "Kaju 100 g, Badam 120 g, Pista Dodhi 80 g, Kishmish 150 g, Walnut 80 g, Kiwi 130 g; tray included."
   },
@@ -107,7 +107,7 @@
     "title": "Baklawa Selection · 3 Pieces Each",
     "code": "4648",
     "price": "₹525",
-    "page": 23,
+    "page": 22,
     "category": "Crystal Collection",
     "desc": "Pyramid Baklawa 3 pcs, Ring Baklawa 3 pcs, Square Baklawa 3 pcs; crystal box included."
   },
@@ -115,7 +115,7 @@
     "title": "Baklawa Selection · 5 Pieces Each",
     "code": "4649",
     "price": "₹825",
-    "page": 24,
+    "page": 23,
     "category": "Crystal Collection",
     "desc": "Pyramid Baklawa 5 pcs, Ring Baklawa 5 pcs, Square Baklawa 5 pcs; crystal box included."
   },
@@ -123,7 +123,7 @@
     "title": "Fruit Tart Selection · 3 Pieces Each",
     "code": "4650",
     "price": "₹475",
-    "page": 25,
+    "page": 24,
     "category": "Crystal Collection",
     "desc": "Kiwi Tart 3 pcs, Mango Tart 3 pcs, Mix Dry Fruit Tart 3 pcs; crystal box included."
   },
@@ -131,7 +131,7 @@
     "title": "Fruit Tart Selection · 5 Pieces Each",
     "code": "4651",
     "price": "₹750",
-    "page": 26,
+    "page": 25,
     "category": "Crystal Collection",
     "desc": "Kiwi Tart 5 pcs, Mango Tart 5 pcs, Mix Dry Fruit Tart 5 pcs; crystal box included."
   },
@@ -139,7 +139,7 @@
     "title": "Baklawa & Tart Celebration Box",
     "code": "4653",
     "price": "₹1,150",
-    "page": 27,
+    "page": 26,
     "category": "Crystal Collection",
     "desc": "Kiwi Tart, Mango Tart, Pyramid Baklawa, Ring Baklawa and Square Baklawa; 5 pcs each; crystal box included."
   },
@@ -147,7 +147,7 @@
     "title": "The Happiness Basket",
     "code": "4291",
     "price": "₹1,750",
-    "page": 29,
+    "page": 28,
     "category": "Happiness Basket",
     "desc": "Dodha Burfi / Besan Burfi, Muesli Cookies, Namak Para, Gol Mathhi, Makhana, Badam Laccha / Kashmiri Mixture, Lite Chiwra and Bhujia."
   },
@@ -155,7 +155,7 @@
     "title": "The Happiness Basket",
     "code": "939",
     "price": "₹1,380",
-    "page": 31,
+    "page": 30,
     "category": "Happiness Basket",
     "desc": "Dodha Burfi / Besan Burfi, Muesli Cookies, Namak Para, Gol Mathhi, Kashmiri Mixture and Badam Laccha."
   },
@@ -163,7 +163,7 @@
     "title": "The Happiness Basket",
     "code": "1580",
     "price": "₹1,299",
-    "page": 33,
+    "page": 32,
     "category": "Happiness Basket",
     "desc": "Besan Laddu / Panjiri Laddu, Namak Para, Choco Chips Cookies, Kashmiri Mixture and Badam Laccha."
   },
@@ -171,7 +171,7 @@
     "title": "Festive Savoury Basket",
     "code": "1880",
     "price": "₹1,480",
-    "page": 35,
+    "page": 34,
     "category": "Happiness Basket",
     "desc": "Chana Burfi, Muesli Cookies, Rimjhim, Methi Mathhi Large, Kashmiri Mixture and Tasty Peanut; basket included."
   },
@@ -179,7 +179,7 @@
     "title": "Nutty Cluster Assortment",
     "code": "4300",
     "price": "₹1,990",
-    "page": 36,
+    "page": 35,
     "category": "Treasured Treat",
     "desc": "Nutty Cranberry Cluster, Coco Seeds Cluster, Coco Nutty Cluster and Spicy Nutty Cluster; 200 g each."
   },
@@ -187,7 +187,7 @@
     "title": "Sweet Luxe Premium · Badam Burfi",
     "code": "4293",
     "price": "₹730",
-    "page": 38,
+    "page": 37,
     "category": "Sweet Luxe",
     "desc": "Kaju Kalash 250 g, Kaju Burfi 250 g, Kaju Roll 250 g, Badam Burfi 250 g; box included. Other sizes are available.",
     "priceOptions": [
@@ -212,7 +212,7 @@
     "title": "Sweet Luxe Premium · Besan Burfi",
     "code": "4295",
     "price": "₹625",
-    "page": 40,
+    "page": 39,
     "category": "Sweet Luxe",
     "desc": "Kaju Kalash 250 g, Kaju Burfi 250 g, Kaju Roll 250 g, Besan Burfi 250 g; box included.",
     "priceOptions": [
@@ -237,7 +237,7 @@
     "title": "Sweet Luxe Premium · Kesar Peda",
     "code": "4296",
     "price": "₹590",
-    "page": 42,
+    "page": 41,
     "category": "Sweet Luxe",
     "desc": "Kaju Roll, Badam Burfi, Besan Burfi and Kesar Peda; 250 g each; box included.",
     "priceOptions": [
@@ -262,7 +262,7 @@
     "title": "Sweet Luxe Premium · Kheer Kadam",
     "code": "4297",
     "price": "₹510",
-    "page": 44,
+    "page": 43,
     "category": "Sweet Luxe",
     "desc": "Kheer Kadam, Badam Burfi, Coconut Burfi and Moongdal Burfi; 250 g each; box included.",
     "priceOptions": [
