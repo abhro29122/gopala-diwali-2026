@@ -6,20 +6,27 @@ function render(){
  const filtered=products.filter(p=>(activeCategory==="All"||p.category===activeCategory)&&[p.title,p.code,p.category,p.desc].join(" ").toLowerCase().includes(q));
  grid.innerHTML=filtered.map((p,i)=>`<article class="product-card" tabindex="0" role="button" aria-label="View ${moneySafe(p.title)}" data-index="${products.indexOf(p)}">
  <div class="product-image"><img loading="lazy" src="assets/pages/page-${String(p.page).padStart(2,"0")}.jpg" alt="${moneySafe(p.title)} from the Gopala Diwali catalogue"><span class="product-code">CODE ${moneySafe(p.code)}</span></div>
- <div class="product-info"><span class="product-category">${moneySafe(p.category)}</span><h3>${moneySafe(p.title)}</h3><p>${moneySafe(p.desc)}</p><div class="product-bottom"><div><span class="price-label">MRP</span><span class="price">${moneySafe(p.price)}</span></div><span class="view-link">VIEW DETAILS ↗</span></div></div></article>`).join("");
+ <div class="product-info"><span class="product-category">${moneySafe(p.category)}</span><h3>${moneySafe(p.title)}</h3><p>${moneySafe(p.desc)}</p><div class="product-bottom"><div><span class="price-label">MRP</span><span class="price">${moneySafe(p.priceOptions ? ("From " + p.price) : p.price)}</span></div><span class="view-link">VIEW DETAILS ↗</span></div></div></article>`).join("");
  empty.hidden=filtered.length!==0;
 }
 function openProduct(p){
- document.querySelector("#modal-img").src=`assets/pages/page-${String(p.page).padStart(2,"0")}.jpg`;
- document.querySelector("#modal-img").alt=p.title;
+ const img=document.querySelector("#modal-img");
+ img.src="assets/pages/page-"+String(p.page).padStart(2,"0")+".jpg";
+ img.alt=p.title;
  document.querySelector("#modal-category").textContent=p.category;
  document.querySelector("#modal-title").textContent=p.title;
  document.querySelector("#modal-desc").textContent=p.desc;
- document.querySelector("#modal-price").textContent=p.price;
- document.querySelector("#modal-code").textContent=`Code ${p.code}`;
- const msg=encodeURIComponent(`Hello Gopala, I'm interested in ${p.title} (Code ${p.code}), listed at ${p.price} in the Diwali 2026 catalogue.`);
- document.querySelector("#modal-whatsapp").href=`https://wa.me/917290031303?text=${msg}`;
- document.querySelector("#modal-page").href=`assets/Gopala_Diwali_2026_Catalogue.pdf#page=${p.page}`;
+ document.querySelector("#modal-price-label").textContent=p.priceOptions?"PACK PRICES":"MRP";
+ document.querySelector("#modal-price").textContent=p.priceOptions?("From "+p.price):p.price;
+ document.querySelector("#modal-code").textContent=p.priceOptions?("Codes "+p.priceOptions.map(o=>o.code).join(" · ")):(p.code?("Code "+p.code):"");
+ const sizeBox=document.querySelector("#modal-sizes");
+ if(p.priceOptions && p.priceOptions.length){
+   sizeBox.hidden=false;
+   sizeBox.innerHTML='<div class="modal-sizes-title">Choose a pack size</div>'+p.priceOptions.map(function(o){return '<div class="modal-size-row"><span>'+moneySafe(o.weight)+' · Code '+moneySafe(o.code)+'</span><strong>'+moneySafe(o.price)+'</strong></div>'}).join("");
+ }else{sizeBox.hidden=true;sizeBox.innerHTML="";}
+ const msg=encodeURIComponent("Hello Gopala, I\'m interested in "+p.title+" (Code "+(p.code||"not listed")+") in the Diwali 2026 catalogue. Please confirm availability and price.");
+ document.querySelector("#modal-whatsapp").href="https://wa.me/917290031303?text="+msg;
+ document.querySelector("#modal-page").href="assets/Gopala_Diwali_2026_Catalogue.pdf#page="+p.page;
  const modal=document.querySelector("#modal");modal.classList.add("open");modal.setAttribute("aria-hidden","false");document.body.style.overflow="hidden";
 }
 function closeModal(){const modal=document.querySelector("#modal");modal.classList.remove("open");modal.setAttribute("aria-hidden","true");document.body.style.overflow=""}
